@@ -42,7 +42,6 @@ header {
 }
 
 main {
-    border: 1px solid gray;
     display: flex;
     flex-flow: row wrap;
     width: 90%;
@@ -51,12 +50,13 @@ main {
     margin-top: 30px;
 }
 
-#lista-feita {
+.lista-feita {
     width: 100%;
     height: 80px;
     display: flex;
     flex-flow: row wrap;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+
 }
 
 #icone-v {
@@ -71,23 +71,28 @@ main {
 
 #barra-t {
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
+
     flex: 69%;
-    font-size: 24px;
+    font-size: 22px;
     border: 1px solid black;
     background: aliceblue;
 
 }
 
-#btn-d {
+.btn-d {
     flex: 15%;
     font-size: 20px;
     color: whitesmoke;
     background: red;
     border-radius: 5px;
 }
+
+
+
+/*
+estou fazendo ainda
 
 section {
     border: 1px solid gray;
@@ -115,4 +120,4 @@ section {
 #lista-clique {
     background: rgb(203, 238, 149);
     text-decoration: line-through;
-}
+}*/
